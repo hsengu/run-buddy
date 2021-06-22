@@ -37,6 +37,7 @@ header h1 {
     font-size: 36px;
     color: var(--primary-color);
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -57,9 +58,10 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 10px 15px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -132,6 +134,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
